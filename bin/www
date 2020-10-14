@@ -6,7 +6,7 @@ const cors = require('cors');
 
 const serverCount = 2;
 const servers = [...Array(serverCount).keys()].map(
-  (i) => `https://feedr-app-${i + 1}.herokuapp.com`
+  (i) => `https://feedrapp-worker${i + 1}.herokuapp.com`
 );
 let cur = 0;
 
