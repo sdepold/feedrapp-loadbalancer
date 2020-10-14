@@ -1,0 +1,35 @@
+{
+  "name": "feedrapp-loadbalancer",
+  "version": "1.0.0",
+  "description": "A load balancer for FeedrApp",
+  "main": "dist/index.js",
+  "scripts": {
+    "lint": "eslint --fix ./src/**/*.js ./test/**/*.js",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sdepold/feedrapp-loadbalancer.git"
+  },
+  "keywords": [
+    "rss",
+    "atom",
+    "parser",
+    "service",
+    "feed"
+  ],
+  "author": "Sascha Depold <sascha@depold.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sdepold/feedrapp-loadbalancer/issues"
+  },
+  "homepage": "https://github.com/sdepold/feedrapp-loadbalancer",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.14.1",
+    "request": "^2.88.0"
+  },
+  "engines": {
+    "node": ">=8.15.0"
+  }
+}
